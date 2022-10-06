@@ -1,0 +1,26 @@
+/* celular */
+
+@media(max-width :600px) {
+    .flex {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .linha-vertical {
+
+        background-color: white;
+    }
+
+    main {
+        width: 80%;
+        height: 1000px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

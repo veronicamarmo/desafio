@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo {
+    position: absolute;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1180E7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 258px;
+    height: 100px;
+}
+
+h1 {
+    width: 177px;
+    height: 74px;
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 74px;
+}
+
+.linha-vertical {
+
+    height: 450px;
+    width: 5px;
+    background-color: #B0A3A3;
+}
+
+body {
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #F2890D;
+}
+
+main {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    Width: 1084px;
+    Height: 645px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.botao1 {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+
+    color: #000000;
+
+    width: 350px;
+    height: 42px;
+    box-sizing: border-box;
+    background: #1180E6;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.botao2 {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+    box-sizing: border-box;
+    width: 350px;
+    height: 42px;
+    background: #F2890D;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.paragrafo2 {
+    width: 350px;
+    height: 145px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+
+    Line-height: 29.3px;
+}
+
+.p1 {
+    width: 90px;
+    height: 18px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+
+    color: #000000;
+}
+
+.p2 {
+    width: 180px;
+    height: 18px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+
+    color: #000000;
+}
+
+.p3 {
+    width: 306px;
+    height: 18px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+
+    color: #000000;
+}
+
+input {
+    box-sizing: border-box;
+
+    width: 350px;
+    height: 42px;
+
+    border: 3px solid #B0A3A3;
+    border-radius: 5px;
+}
+
+select {
+
+    box-sizing: border-box;
+
+    width: 350px;
+    height: 42px;
+
+    border: 3px solid #B0A3A3;
+    border-radius: 5px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+#frase {
+    width: 350px;
+    height: 99px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#tentativas {
+    width: 350px;
+    height: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+    
+    box-sizing: border-box;
+}
+
+#tentativas2 {
+    width: 350px;
+    height: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botao{
+    
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+
+    color: #000000;
+
+    width: 350px;
+    height: 42px;
+    box-sizing: border-box;
+    background: #e20505;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}

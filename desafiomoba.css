@@ -1,0 +1,42 @@
+@media(max-width :400px) {
+    .flex {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .linha-vertical {
+
+        background-color: white;
+    }
+
+
+    main {
+        width: 80%;
+        height: 1000px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botao1,
+    .botao2,
+    select,
+    input {
+        width: 270px;
+    }
+
+    .p3 {
+        width: 285px;
+        text-align: center;
+        height: 30px;
+    }
+
+    .card2 {
+        width: 91%
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO</title>
+
+    <link rel="stylesheet" href="desafio.css">
+    <link rel="stylesheet" href="desafiomoba.css">
+    <link rel="stylesheet" href="desafiotablet.css">
+
+</head>
+
+<body>
+    <main>
+
+        <div class="titulo">
+            <h1>O JOGO</h1>
+        </div>
+
+        <div class="flex">
+
+            <div class="card1">
+                <div class="img">
+                    <img src="./image 1.png" alt="img usuario">
+                </div>
+
+
+                <p class="p1">Nick:</p>
+                <br>
+                <input type="text" id="nick">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p class="p2">Intervalo:</p>
+                <br>
+                <select id="setor">
+                    <option value="opcao" selected>escolha sua opção</option>
+                    <option id="opcao1" value="opcao1">Opção 1: 1 a 10</option>
+                    <option id="opcao2" value="opcao2">Opção 2: 1 a 100</option>
+                    <option id="opcao3" value="opcao3">Opção 3: 1 a 200</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <button class="botao1" type="submit" id="comecar">COMEÇAR</button>
+            </div>
+
+            <div class="linha-vertical"></div>
+
+
+            <div class="card2">
+
+                <div id="frase"></div>
+                <br>
+                <br>
+                <br>
+
+                <p class="p3">Digite um número:</p>
+                <br>
+
+                <input type="text" id="numero">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="resultado"> <button class="botao2" type="submit" id="jogar">JOGAR</button> </div>
+                <br>
+                <br>
+
+
+                <div id="tentativas"></div>
+                <div id="tentativas2"></div>
+                <div id="vidas"></div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="desafio.js"></script>
+</body>
+
+</html>
