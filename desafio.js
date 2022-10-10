@@ -34,8 +34,8 @@ const jogo = () => {
 
 
     vidas--
-    tentativas2.innerHTML = "<br> você tem apenas " + vidas + " tentativas!"
-
+    tentativas2.innerHTML = "<br> você tem apenas " + vidas + " tentativas!" 
+    
 }
 
 
